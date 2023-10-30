@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    align-items: center;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.container-text{
+    padding: 100px 0 0 130px;
+    display: inline-block;
+}
+
+.logo i{
+    height: 40px;  
+    width: 40px;
+    background: transparent; /* Fundo da logo transparente*/
+    border: 1px solid #8A2036; 
+    color: #8A2036;
+    border-radius: 50%; 
+    font-size: 15px;
+    display: inline-flex; 
+    align-items: center;  
+    justify-content: center; 
+    cursor: default; 
+    margin-left: 120px;
+}
+
+.menu{
+    display: flex;
+    gap: 3rem;
+    font-weight: 300;
+    cursor: pointer; 
+    margin-right: 200px;
+}
+
+.menu a{
+    color: #0b0c0b; 
+    font-size: 18px; 
+}
+
+.menu a:hover{ /* Muda qnd passa o mouse em cima*/
+    color:  #8A2036; /* A cor vai mudar de preto pra rosa qnd o cursor passar em cima*/
+    transition: 0.3s all;
+}
+
+.imagem img{
+    width: 300px;
+    display: inline-block;
+    border-radius: 10px;
+}
+
+.imagem{
+    display: inline-block;
+    margin-left: 250px;
+}
+
+.text h3{
+    color: #0b0a0a;
+    font-size: 15px;  
+}
+
+.text h1{
+    color: #0b0a0a;
+    margin-top: 8px; 
+    margin-bottom: 10px; 
+}
+
+.text span{
+    color: #8A2036;   
+} 
+
+.text p{
+    color: #0b0a0a;
+    font-weight: 500; /* Peso da fonte pode ser númerico, bold, normal*/
+    font-size: 18px;
+}
+
+#pdois{
+    margin-top: 10px;
+}
+
+button{ /* Para todos os botões*/
+    color: #8A2036;
+    background: transparent;
+    border:solid 1px #8A2036; /* Cor, tamanho e tipo da borda do botão*/
+    padding: 5px; /* Distancia do elemento até a borda(espaço interno)*/
+    border-radius: 15px; /* Tipo de borda arredondada*/
+    font-size: 13px; /*Tamanho do elemento dentro do botao*/
+    cursor: pointer; /* Qnd passa o mouse fica a maozinha e n mais setinha*/
+    width: 150px;
+}
+
+button:hover{ /* Mudança dos botões*/
+    color: #f4eeee;
+    background-color: #8A2036;
+    transition: 0.5s;
+}
+
+.btn-ctt{ /* Para apenas o btn sobre mim*/
+    margin-top: 20px;  
+}
+
+.text-f {
+    color: #0b0a0a; 
+    font-weight: bold;
+    margin-top: 50px;
+    font-size: 40px;
+    padding: 70px 0 0 130px;
+}
+.p-formacao {
+    font-size: 18px;
+    padding-left: 130px;
+
+}.p-formacao span{
+    font-weight: 600;
+}
+
+.redes-social{
+    margin-top: 20px;
+}
+
+.redes-social a{
+    color: #8A2036;
+    padding: 10px;
+}
+
+.contact-form{
+    margin-left: 570px;
+    padding: 20px;
+    height: auto;
+    width: 80px;
+    background: transparent;  
+}
+
+textarea{
+    width: 27em;
+}
+
+#nome{
+    width: 27em;
+}
+
+#email{
+    width: 27em;
+}
+
+#titulo-contact{
+    font-size: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+
+    
+   
+
+
